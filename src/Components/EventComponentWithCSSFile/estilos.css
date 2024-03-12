@@ -1,0 +1,27 @@
+.contenedorEventos{
+  border: 2px solid rgb(79 70 229);
+  border-radius: 12px;
+  padding: 8px;
+  /* añado diferente: */
+  background-color: rgba(183, 231, 216, 0.779);
+
+}
+.primerSpan{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+ 
+}
+.titulo{
+  margin-bottom: 8px;
+  
+}
+.segundoSpan{
+  width:40px;
+  height: 40px;
+  padding: 8px;
+  margin-bottom: 8px;
+  border:2px solid rgb(79 70 229); 
+  border-radius: 50%;
+  
+}
