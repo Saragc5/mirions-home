@@ -1,0 +1,37 @@
+/* Clases personalizadas para reutilizar, que se pueden combinar con más clases Tailwind*/
+
+/* CLASES PARA LOS DIVS LABEL + INPUT */
+.inputClassDiv {
+  display: grid;
+  gap:5px;
+  padding: 20px;  
+}
+.inputBox{
+  height: 35px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px;
+  padding-left: 8px;
+}
+
+/* BOTONES */
+.buttonClass{  
+  width: 150px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  border-radius: 10px;
+  background-color: #742be0;
+  color:white;
+  padding:5px;
+  margin-left: 90px;
+  box-shadow: 0 4px 6px rgba(26, 25, 25, 0.7)
+}
+
+/* COLOR DE MIRIONS BACKGROUND Y TEXTO */
+.bgMirionsColor{
+  background-color: #742be0;
+}
+.textMirionsColor{
+  color: #742be0;
+}
