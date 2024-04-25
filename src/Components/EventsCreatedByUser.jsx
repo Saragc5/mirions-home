@@ -1,10 +1,9 @@
 import Events from './Events'
 import { eventData  } from '../data'
-import '../personalizedStyles.css'
 
 function EventsCreatedByUser() {
   return (
-    <div className="colorBackground">
+    <div className="colorBackgroundEventTarjet">
       <span className="flex justify-between mb-1">
         <h3 className="mb-2">Eventos creados por ti</h3>
         <span className='w-10 h-10 p-2 mb-2 border-solid border-2 border-indigo-600 rounded-full'>{`12`}</span>

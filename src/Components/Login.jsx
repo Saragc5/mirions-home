@@ -1,8 +1,13 @@
 // import { BiSolidHide } from "react-icons/bi";
 import Button from "./Button";
 import '../Styles/custom.css'
+import { useNavigate } from 'react-router-dom';
+
 
 function Login({ text }) {
+
+  const navigate = useNavigate();
+
   return (
     <>
       <form >
@@ -32,7 +37,7 @@ function Login({ text }) {
         <span className="ml-8 text-sm font-thin">Recuperar contraseña</span>
         <div className="grid-cols-1 grid-rows-2 gap-3 mt-8 ml-4 ">
           <Button text={"Iniciar"} />
-          <span className="ml-24 mt-8 text-sm font-thin">No account? Register</span>
+          <button className="ml-24 mt-8 text-sm font-thin" onClick={() => navigate("/register")}>No account? Register</button>
         </div>
       </form>
     </>
